@@ -9,7 +9,7 @@
 ############################################################
 
 fddev=/dev/fd0
-fdprms="hd ssize=256 head=2 sect=26 cyl=77"
+fdprms="hd ssize=256 head=2 sect=16 cyl=77"
 
 until setfdprm ${fddev} ${fdprms}
 do
