@@ -17,7 +17,7 @@ do
     sleep 1
 done
 
-until getfdprm ${fddev}
+until getfdprm -a ${fddev}
 do
     echo "Waiting getfdprm ${fddev} ...."
     setfdprm ${fddev} ${fdprms}
