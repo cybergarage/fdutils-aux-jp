@@ -4,7 +4,7 @@
 
 ## Setup
 
-`Fdutils-aux` requires [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) on your platform. On Debian and Ubuntu based distributions, install these required packages with the following command.
+`Fdutils-aux` requires [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) on your Linux platform. On Debian and Ubuntu based distributions, install these required packages with the following command.
 
 ```
 sudo apt install -y fdutils gddrescue
