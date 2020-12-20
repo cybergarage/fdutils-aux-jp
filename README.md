@@ -34,4 +34,4 @@ You can pass any parameters same as [ddrescue](http://www.gnu.org/software/ddres
 
 - [ddrescue - GNU Project - Free Software Foundation (FSF)](http://www.gnu.org/software/ddrescue/ddrescue.html)
 - [fdutils - Linux floppy tuning utilities](https://fdutils.linux.lu/)
-- [fdutils - tools.ietf.org](https://fdutils.linux.lu/)
+- [fdutils - tools.ietf.org](https://tools.ietf.org/doc/fdutils/Fdutils.html)
