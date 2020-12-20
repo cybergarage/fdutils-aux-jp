@@ -27,8 +27,8 @@ sudo apt install -y fdutils gddrescue
 |ddrescue-98   |       |9801    |2HD  |hd     |2   |77 |8   |1024 |
 |ddrescue-smc  |Sony   |SMC-777 |1DD  |dd     |1   |70 |16  |256  |
 
-You can pass any parameters same as [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) to `ddrescue-*`, but `ddrescue-*` set the above parameters to `/dev/fd0` statically.
 [Fdutils](https://fdutils.linux.lu/) supports only legacy (FDC-based) floppy drives, and so `ddrescue-*` can't use other floppy drives such as USB floppy drives.
+You can pass any parameters same as [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) to `ddrescue-*`, but `ddrescue-*` set the above parameters to `/dev/fd0` statically.
 
 ## References
 
