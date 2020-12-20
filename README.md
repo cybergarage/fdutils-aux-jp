@@ -12,7 +12,7 @@ sudo apt install -y fdutils gddrescue
 
 ## Ddrescue-*
 
-`Ddrescue-*` are auxiliary scripts to be able to use [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) more easily. `ddrescue-*` set the following standard floppy parameters.
+`Ddrescue-*` are auxiliary scripts to be able to use [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) for Japanese retro computers easily. `ddrescue-*` set the following standard floppy parameters before executing [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html).
 
 |Script        |Maker  |Computer|Media|density|head|cyl|sect|ssize|
 |--------------|-------|--------|-----|-------|----|---|----|-----|
