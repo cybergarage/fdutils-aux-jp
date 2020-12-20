@@ -12,7 +12,7 @@ sudo apt install -y fdutils gddrescue
 
 ## Ddrescue-*
 
-`Ddrescue-*` are auxiliary scripts to be able to use [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) more easily. `ddrescue-*` set the following standard floppy parameters using [fdutils](https://fdutils.linux.lu/).
+`Ddrescue-*` are auxiliary scripts to be able to use [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) more easily. `ddrescue-*` set the following standard floppy parameters using `setfdprm` of [fdutils](https://fdutils.linux.lu/).
 
 |Script        |Maker  |Computer|Media|density|head|cyl|sect|ssize|
 |--------------|-------|--------|-----|-------|----|---|----|-----|
