@@ -2,6 +2,14 @@
 
 fdutils-aux is an auxiliary script package for [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) to operate any floppy disks of Japanese retro computers more easily.
 
+## Setup
+
+fdutils-aux requires [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) on your platform. On Debian and Ubuntu based distributions, install these required packages with the following command.
+
+```
+sudo apt install -y fdutils gddrescue
+```
+
 ## ddrescue-*
 
 `ddrescue-*` are auxiliary scripts to be able to use [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) more easily. `ddrescue-*` set the following standard floppy parameters.
