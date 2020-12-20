@@ -1,18 +1,18 @@
 # Fdutils-aux
 
-fdutils-aux is an auxiliary script package for [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) to operate any floppy disks of Japanese retro computers more easily.
+`Fdutils-aux` is an auxiliary script package for [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) to operate any floppy disks of Japanese retro computers more easily.
 
 ## Setup
 
-fdutils-aux requires [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) on your platform. On Debian and Ubuntu based distributions, install these required packages with the following command.
+`Fdutils-aux` requires [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) on your platform. On Debian and Ubuntu based distributions, install these required packages with the following command.
 
 ```
 sudo apt install -y fdutils gddrescue
 ```
 
-## ddrescue-*
+## Ddrescue-*
 
-`ddrescue-*` are auxiliary scripts to be able to use [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) more easily. `ddrescue-*` set the following standard floppy parameters.
+`Ddrescue-*` are auxiliary scripts to be able to use [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) more easily. `ddrescue-*` set the following standard floppy parameters.
 
 |Script        |Maker  |Computer|Media|Head|Track|Sector|SSize|
 |--------------|-------|--------|-----|----|-----|------|-----|
@@ -26,6 +26,9 @@ sudo apt install -y fdutils gddrescue
 |ddrescue-88-hd|       |8801    |2HD  |2   |80   |26    |256  |
 |ddrescue-98   |       |9801    |2HD  |2   |77   |8     |1024 |
 |ddrescue-smc  |Sony   |SMC-777 |1DD  |1   |70   |16    |256  |
+
+You can pass any parameters same as [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) to `ddrescue-*`, but `ddrescue-*` set the above parameters to `/dev/fd0` statically.
+[Fdutils](https://fdutils.linux.lu/) supports only legacy (FDC-based) floppy drives, and so `ddrescue-*` can't use other floppy drives such as USB floppy drives.
 
 ## References
 
