@@ -25,7 +25,7 @@ sudo apt install -y fdutils gddrescue
 |ddrescue-88     |NEC    |8801    |5.25     |2D   |dd     |2   |40 |16  |256  |-      |
 |ddrescue-88-hd  |       |8801    |5.25     |2HD  |hd     |2   |80 |26  |256  |-      |
 |ddrescue-98     |       |9801    |5.25     |2HD  |hd     |2   |77 |8   |1024 |-      |
-|ddrescue-msx    |MSX    |Any     |3.5      |2DD  |dd     |2   |80 |9   |512  |-      |
+|ddrescue-msx    |Any    |MSX     |3.5      |2DD  |dd     |2   |80 |9   |512  |-      |
 |ddrescue-msx-1dd|       |        |3.5      |1DD  |dd     |1   |80 |9   |512  |-      |
 |ddrescue-smc    |Sony   |SMC-777 |3.5      |1DD  |dd     |1   |70 |16  |256  |-      |
 |ddrescue-pc     |Any    |PC/AT   |3.5      |2HD  |hd     |2   |80 |18  |512  |-      |
