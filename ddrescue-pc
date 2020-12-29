@@ -1,0 +1,27 @@
+#!/bin/bash
+############################################################
+#
+# Copyright (C) 2020, Satoshi Konno 
+#
+# Use of this source code is governed by an MIT-style
+# license that can be found in the LICENSE file.
+#
+############################################################
+
+fddev=/dev/fd0
+fdprms="hd ssize=512 head=2 sect=15 cyl=80"
+
+until setfdprm ${fddev} ${fdprms}
+do
+    echo "Waiting setfdprm ${fddev} ...."
+    sleep 1
+done
+
+until getfdprm -a ${fddev}
+do
+    echo "Waiting getfdprm ${fddev} ...."
+    setfdprm ${fddev} ${fdprms}
+    sleep 1
+done
+
+ddrescue -b 1024 $@
