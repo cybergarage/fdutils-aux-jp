@@ -36,7 +36,7 @@ You can pass any parameters same as [ddrescue](http://www.gnu.org/software/ddres
 
 ## References
 
-- [Floppy Drive Tech Info](http://www.retrotechnology.com/herbs_stuff/drive.html)
 - [ddrescue - GNU Project - Free Software Foundation (FSF)](http://www.gnu.org/software/ddrescue/ddrescue.html)
 - [fdutils - Linux floppy tuning utilities](https://fdutils.linux.lu/)
 - [fdutils - tools.ietf.org](https://tools.ietf.org/doc/fdutils/Fdutils.html)
+- [Floppy Drive Tech Info](http://www.retrotechnology.com/herbs_stuff/drive.html)
