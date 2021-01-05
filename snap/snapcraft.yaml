@@ -15,6 +15,9 @@ parts:
   fdtools:
     source-type: git
     source: https://github.com/cybergarage/fdutils-aux
+    stage-packages:
+      - fdutils
+      - gddrescue
     plugin: dump
     organize:
       ddrescue-68: bin/
