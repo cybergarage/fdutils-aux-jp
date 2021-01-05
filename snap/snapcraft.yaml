@@ -1,9 +1,8 @@
 name: fdutils-aux
 type: app
-base: core18
+base: core20
 version: git
 summary: Fdutils-aux is an auxiliary script package for retro computers.
-
 description: |
   Fdutils-aux is an auxiliary script package for fdutils and ddrescue to operate any floppy disks of retro computers more easily.
 license: "MIT"
