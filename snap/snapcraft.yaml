@@ -1,0 +1,34 @@
+name: fdutils-aux
+type: app
+base: core18
+version: git
+summary: Fdutils-aux is an auxiliary script package for retro computers.
+
+description: |
+  Fdutils-aux is an auxiliary script package for fdutils and ddrescue to operate any floppy disks of retro computers more easily.
+license: "MIT"
+
+grade: stable
+confinement: strict
+
+parts:
+  fdtools:
+    source-type: git
+    source: https://github.com/cybergarage/fdutils-aux
+    plugin: dump
+    organize:
+      ddrescue-68: bin/
+      ddrescue-88: bin/
+      ddrescue-88-hd: bin/
+      ddrescue-98: bin/
+      ddrescue.csv: bin/
+      ddrescue-fm: bin/
+      ddrescue-fm-dd: bin/
+      ddrescue-msx: bin/
+      ddrescue-msx-1dd: bin/
+      ddrescue-mz: bin/
+      ddrescue-pc: bin/
+      ddrescue-pc5: bin/
+      ddrescue-smc: bin/
+      ddrescue-x1: bin/
+      ddrescue-x1-hd: bin/
