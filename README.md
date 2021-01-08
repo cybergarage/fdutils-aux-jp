@@ -4,18 +4,23 @@
 
 ## Setup
 
-`Fdutils-aux` requires [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) on your Linux platform. On Debian and Ubuntu based distributions, install these required packages with the following command.
+`Fdutils-aux` requires [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) on your Linux platform. On Debian and Ubuntu based distributions, install these required packages with the following command:
 
 ```
 sudo apt install -y fdutils gddrescue
 ```
 
-`Fdutils-aux` is distributed as a snap package, you can install it with the following command.
+`Fdutils-aux` is distributed as a snap package, you can install it with the dependency packages using the following command:
 
 ```
 snap install fdutils-aux-jp
 ```
 
+However, snap adds the package name prefix into all `Fdutils-aux` commands to avoid conflicting with other snap packages. Therefore, you must add the package prefix name to execute the `Fdutils-aux` commands which are installed by snap as the following:
+
+```
+fdutils-aux-jp.ddrescue-x1
+```
 
 ## Ddrescue-*
 
@@ -43,6 +48,7 @@ You can pass any parameters same as [ddrescue](http://www.gnu.org/software/ddres
 
 ## References
 
+- [PC-6601用3.5インチ1DディスクのLinuxでの読み取りに関する覚え書き](http://000.la.coocan.jp/p6/disk.html)
 - [ddrescue - GNU Project - Free Software Foundation (FSF)](http://www.gnu.org/software/ddrescue/ddrescue.html)
 - [fdutils - Linux floppy tuning utilities](https://fdutils.linux.lu/)
 - [fdutils - tools.ietf.org](https://tools.ietf.org/doc/fdutils/Fdutils.html)
