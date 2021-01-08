@@ -8,7 +8,7 @@ description: |
 license: "MIT"
 
 grade: stable
-confinement: strict
+confinement: classic
 
 apps:
   ddrescue-68:
