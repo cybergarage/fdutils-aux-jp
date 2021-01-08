@@ -13,7 +13,7 @@ sudo apt install -y fdutils gddrescue
 `Fdutils-aux` is distributed as a snap package, you can install it with the dependency packages using the following command:
 
 ```
-snap install fdutils-aux-jp
+snap install fdutils-aux-jp --classic
 ```
 
 However, snap adds the package name prefix into all `Fdutils-aux` commands to avoid conflicting with other snap packages. Therefore, you must add the package prefix name to execute the `Fdutils-aux` commands which are installed by snap as the following:
