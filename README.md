@@ -13,7 +13,7 @@ sudo apt install -y fdutils gddrescue
 `Fdutils-aux` is distributed as a snap package, you can install it with the dependency packages using the following command:
 
 ```
-snap install fdutils-aux-jp
+snap install fdutils-aux-jp --classic
 ```
 
 However, snap adds the package name prefix into all `Fdutils-aux` commands to avoid conflicting with other snap packages. Therefore, you must add the package prefix name to execute the `Fdutils-aux` commands which are installed by snap as the following:
@@ -47,6 +47,8 @@ fdutils-aux-jp.ddrescue-x1
 You can pass any parameters same as [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) to `ddrescue-*`, but `ddrescue-*` set the above parameters to `/dev/fd0` statically.
 
 ## References
+
+`Fdutils-aux` is inspired by the following previous works and researches, and I would like to thank the authors.
 
 - [PC-6601用3.5インチ1DディスクのLinuxでの読み取りに関する覚え書き](http://000.la.coocan.jp/p6/disk.html)
 - [ddrescue - GNU Project - Free Software Foundation (FSF)](http://www.gnu.org/software/ddrescue/ddrescue.html)
