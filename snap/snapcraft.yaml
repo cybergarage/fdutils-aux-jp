@@ -10,27 +10,40 @@ license: "MIT"
 grade: stable
 confinement: strict
 
+apps:
+  ddrescue-68:
+    command: ddrescue-68
+  ddrescue-88:
+    command: ddrescue-88
+  ddrescue-88-hd:
+    command: ddrescue-88-hd
+  ddrescue-98:
+    command: ddrescue-98
+  ddrescue-fm:
+    command: ddrescue-fm
+  ddrescue-fm-dd:
+    command: ddrescue-fm-dd
+  ddrescue-msx:
+    command: ddrescue-msx
+  ddrescue-msx-1dd:
+    command: ddrescue-msx-1dd
+  ddrescue-mz:
+    command: ddrescue-mz
+  ddrescue-pc:
+    command: ddrescue-pc
+  ddrescue-pc5:
+    command: ddrescue-pc5
+  ddrescue-smc:
+    command: ddrescue-smc
+  ddrescue-x1:
+    command: ddrescue-x1
+  ddrescue-x1-hd:
+    command: ddrescue-x1-hd
+
 parts:
   fdtools:
-    source-type: git
-    source: https://github.com/cybergarage/fdutils-aux
+    source: .
     stage-packages:
       - fdutils
       - gddrescue
     plugin: dump
-    organize:
-      ddrescue-68: bin/
-      ddrescue-88: bin/
-      ddrescue-88-hd: bin/
-      ddrescue-98: bin/
-      ddrescue.csv: bin/
-      ddrescue-fm: bin/
-      ddrescue-fm-dd: bin/
-      ddrescue-msx: bin/
-      ddrescue-msx-1dd: bin/
-      ddrescue-mz: bin/
-      ddrescue-pc: bin/
-      ddrescue-pc5: bin/
-      ddrescue-smc: bin/
-      ddrescue-x1: bin/
-      ddrescue-x1-hd: bin/
