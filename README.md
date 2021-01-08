@@ -48,6 +48,8 @@ You can pass any parameters same as [ddrescue](http://www.gnu.org/software/ddres
 
 ## References
 
+`Fdutils-aux` is inspired by the following previous works and researches, and I would like to thank the authors.
+
 - [PC-6601用3.5インチ1DディスクのLinuxでの読み取りに関する覚え書き](http://000.la.coocan.jp/p6/disk.html)
 - [ddrescue - GNU Project - Free Software Foundation (FSF)](http://www.gnu.org/software/ddrescue/ddrescue.html)
 - [fdutils - Linux floppy tuning utilities](https://fdutils.linux.lu/)
