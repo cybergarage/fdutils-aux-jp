@@ -10,6 +10,13 @@
 sudo apt install -y fdutils gddrescue
 ```
 
+`Fdutils-aux` is distributed as a snap package, you can install it with the following command.
+
+```
+snap install fdutils-aux-jp
+```
+
+
 ## Ddrescue-*
 
 `Ddrescue-*` are auxiliary scripts to be able to use [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) more easily. `ddrescue-*` set the following standard floppy parameters using `setfdprm` of [fdutils](https://fdutils.linux.lu/).
