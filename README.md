@@ -10,6 +10,7 @@
 sudo apt install -y fdutils gddrescue
 ```
 
+<!-- 
 `Fdutils-aux` is distributed as a snap package, you can install it with the dependency packages using the following command:
 
 ```
@@ -21,6 +22,7 @@ However, snap adds the package name prefix into all `Fdutils-aux` commands to av
 ```
 fdutils-aux-jp.ddrescue-x1
 ```
+-->
 
 ## Ddrescue-*
 
