@@ -29,8 +29,8 @@ apps:
     command: ddrescue-msx-1dd
   ddrescue-mz:
     command: ddrescue-mz
-  ddrescue-pc:
-    command: ddrescue-pc
+  ddrescue-pc-35:
+    command: ddrescue-pc-35
   ddrescue-pc-525:
     command: ddrescue-pc-525
   ddrescue-smc:
