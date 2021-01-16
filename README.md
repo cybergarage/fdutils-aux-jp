@@ -43,7 +43,7 @@ fdutils-aux-jp.ddrescue-x1
 |ddrescue-msx-1dd|       |        |3.5      |1DD  |dd     |1   |80 |9   |512  |-      |
 |ddrescue-smc    |Sony   |SMC-777 |3.5      |1DD  |dd     |1   |70 |16  |256  |-      |
 |ddrescue-pc     |Any    |PC/AT   |3.5      |2HD  |hd     |2   |80 |18  |512  |-      |
-|ddrescue-pc5    |       |        |5.25     |2HD  |hd     |2   |80 |15  |512  |-      |
+|ddrescue-pc-525    |       |        |5.25     |2HD  |hd     |2   |80 |15  |512  |-      |
 
 [Fdutils](https://fdutils.linux.lu/) supports only legacy (FDC-based) floppy drives, and so `ddrescue-*` can't use other floppy drives such as USB floppy drives.
 You can pass any parameters same as [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) to `ddrescue-*`, but `ddrescue-*` set the above parameters to `/dev/fd0` statically.

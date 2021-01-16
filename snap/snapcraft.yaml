@@ -31,8 +31,8 @@ apps:
     command: ddrescue-mz
   ddrescue-pc:
     command: ddrescue-pc
-  ddrescue-pc5:
-    command: ddrescue-pc5
+  ddrescue-pc-525:
+    command: ddrescue-pc-525
   ddrescue-smc:
     command: ddrescue-smc
   ddrescue-x1:
