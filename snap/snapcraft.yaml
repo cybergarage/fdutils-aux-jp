@@ -17,8 +17,8 @@ apps:
     command: ddrescue-88
   ddrescue-88-hd:
     command: ddrescue-88-hd
-  ddrescue-98-525:
-    command: ddrescue-98-525
+  ddrescue-98:
+    command: ddrescue-98
   ddrescue-fm:
     command: ddrescue-fm
   ddrescue-fm-dd:
