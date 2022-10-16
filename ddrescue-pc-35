@@ -9,7 +9,7 @@
 ############################################################
 
 fddev=/dev/fd0
-fdprms="dd ssize=256 head=1 sect=16 cyl=70"
+fdprms="hd ssize=512 head=2 sect=18 cyl=80"
 
 until setfdprm ${fddev} ${fdprms}
 do
@@ -24,4 +24,4 @@ do
     sleep 1
 done
 
-ddrescue -b 256 $@
+ddrescue -b 512 $@

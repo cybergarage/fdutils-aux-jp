@@ -1,0 +1,49 @@
+name: fdutils-aux-jp
+type: app
+base: core20
+version: git
+summary: Fdutils-aux is an auxiliary script package for Japanese retro computers.
+description: |
+  Fdutils-aux is an auxiliary script package for fdutils and ddrescue to operate any floppy disks of Japanese retro computers more easily.
+license: "MIT"
+
+grade: stable
+confinement: classic
+
+apps:
+  ddrescue-68:
+    command: ddrescue-68
+  ddrescue-88:
+    command: ddrescue-88
+  ddrescue-88-hd:
+    command: ddrescue-88-hd
+  ddrescue-98:
+    command: ddrescue-98
+  ddrescue-fm:
+    command: ddrescue-fm
+  ddrescue-fm-dd:
+    command: ddrescue-fm-dd
+  ddrescue-msx:
+    command: ddrescue-msx
+  ddrescue-msx-1dd:
+    command: ddrescue-msx-1dd
+  ddrescue-mz:
+    command: ddrescue-mz
+  ddrescue-pc-35:
+    command: ddrescue-pc-35
+  ddrescue-pc-525:
+    command: ddrescue-pc-525
+  ddrescue-smc:
+    command: ddrescue-smc
+  ddrescue-x1:
+    command: ddrescue-x1
+  ddrescue-x1-hd:
+    command: ddrescue-x1-hd
+
+parts:
+  fdtools:
+    source: .
+    stage-packages:
+      - fdutils
+      - gddrescue
+    plugin: dump
