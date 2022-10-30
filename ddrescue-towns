@@ -24,4 +24,4 @@ do
     sleep 1
 done
 
-ddrescue -b 1024 $@
+ddrescue -d -b 1024 $@
