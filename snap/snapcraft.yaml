@@ -11,6 +11,8 @@ grade: stable
 confinement: classic
 
 apps:
+  ddrescue-66:
+    command: ddrescue-66
   ddrescue-68:
     command: ddrescue-68
   ddrescue-88:
