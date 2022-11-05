@@ -54,8 +54,19 @@ You can pass any parameters same as [ddrescue](http://www.gnu.org/software/ddres
 
 `Fdutils-aux` is inspired by the following previous works and researches, and I would like to thank the authors.
 
+### ddrescue
+
+- [Ddrescue - GNU Project - Free Software Foundation (FSF)](https://www.gnu.org/software/ddrescue/)
+- [GNU ddrescue Manual](https://www.gnu.org/software/ddrescue/manual/ddrescue_manual.html)
+- [ddrescue - Wikipedia](https://ja.wikipedia.org/wiki/Ddrescue)
+- [dd - ArchWiki](https://wiki.archlinux.org/title/Dd)
+- [Disk cloning - ArchWiki](https://wiki.archlinux.org/title/disk_cloning)
+
+### Fdutils
+
+- [Fdutils - Linux floppy tuning utilities](http://Fdutils.linux.lu)
+- [How to identify an unknown disk using Fdutils](https://Fdutils.linux.lu/disk-id.html)
+- [Frequently asked question about the Linux floppy driver](http://Fdutils.linux.lu/faq.html)
+- [Linux Japan 連載記事「もう少しだけLinux」2001年 3月号「第２６回 フロッピーディスクの活用」(88kB)](http://ayapin-film.sakura.ne.jp/LJ/lj.html)
+- [年越しそばと初詣は絶対に欠かせない: X68k用の5inch フロッピーを読むには？](https://moimoitei.blogspot.com/2006/04/read-5inch-floppy-x68k.html)
 - [PC-6601用3.5インチ1DディスクのLinuxでの読み取りに関する覚え書き](http://000.la.coocan.jp/p6/disk.html)
-- [ddrescue - GNU Project - Free Software Foundation (FSF)](http://www.gnu.org/software/ddrescue/ddrescue.html)
-- [fdutils - Linux floppy tuning utilities](https://fdutils.linux.lu/)
-- [fdutils - tools.ietf.org](https://tools.ietf.org/doc/fdutils/Fdutils.html)
-- [Floppy Drive Tech Info](http://www.retrotechnology.com/herbs_stuff/drive.html)
