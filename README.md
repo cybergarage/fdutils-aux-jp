@@ -1,23 +1,23 @@
-# Fdutils-aux
+# Fdutils-aux-jp
 
-`Fdutils-aux` is an auxiliary script package for [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) to operate any floppy disks for Japanese  retro computers more easily. Some old floppy disk might have any damages, and so [Ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) tries to rescue the good parts first in case of read errors and retries the bad parts.
+`Fdutils-aux-jp` is an auxiliary script package for [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) to operate any floppy disks for Japanese  retro computers more easily. Some old floppy disk might have any damages, and so [Ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) tries to rescue the good parts first in case of read errors and retries the bad parts.
 
 ## Setup
 
-`Fdutils-aux` requires [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) on your Linux platform. On Debian and Ubuntu based distributions, install these required packages with the following command:
+`Fdutils-aux-jp` requires [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) on your Linux platform. On Debian and Ubuntu based distributions, install these required packages with the following command:
 
 ```
 sudo apt install -y fdutils gddrescue
 ```
 
 <!-- 
-`Fdutils-aux` is distributed as a snap package, you can install it with the dependency packages using the following command:
+`Fdutils-aux-jp` is distributed as a snap package, you can install it with the dependency packages using the following command:
 
 ```
 snap install fdutils-aux-jp --classic
 ```
 
-However, snap adds the package name prefix into all `Fdutils-aux` commands to avoid conflicting with other snap packages. Therefore, you must add the package prefix name to execute the `Fdutils-aux` commands which are installed by snap as the following:
+However, snap adds the package name prefix into all `Fdutils-aux-jp` commands to avoid conflicting with other snap packages. Therefore, you must add the package prefix name to execute the `Fdutils-aux-jp` commands which are installed by snap as the following:
 
 ```
 fdutils-aux-jp.ddrescue-x1
@@ -52,7 +52,7 @@ You can pass any parameters same as [ddrescue](http://www.gnu.org/software/ddres
 
 ## References
 
-`Fdutils-aux` is inspired by the following previous works and researches, and I would like to thank the authors.
+`Fdutils-aux-jp` is inspired by the following previous works and researches, and I would like to thank the authors.
 
 ### ddrescue
 
