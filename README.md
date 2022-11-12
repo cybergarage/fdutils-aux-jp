@@ -2,7 +2,7 @@
 
 `Fdutils-aux-jp` is an auxiliary script package for [fdutils](https://fdutils.linux.lu/) and [ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) to operate any floppy disks for Japanese  retro computers more easily. Some old floppy disk might have any damages, and so [Ddrescue](http://www.gnu.org/software/ddrescue/ddrescue.html) tries to rescue the good parts first in case of read errors and retries the bad parts.
 
-![](img/fdutils-aux-jp-01.jpg | width=320)
+![](img/fdutils-aux-jp-01.jpg)
 
 ## Setup
 
