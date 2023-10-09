@@ -24,4 +24,4 @@ do
     sleep 1
 done
 
-ddrescue -d -b 256 ${fddev} @
+ddrescue -d -b 256 ${fddev} $@
