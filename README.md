@@ -35,7 +35,7 @@ fdutils-aux-jp.ddrescue-x1
 | ddrescue-x1      | Sharp   | X1       | 5.25      | 2D    | dd      | 2    | 40  | 16   | 256   | -       |
 | ddrescue-x1-hd   |         |          | 5.25      | 2HD   | hd      | 2    | 77  | 16   | 256   | -       |
 | ddrescue-mz      |         | MZ-2500  | 3.5       | 2DD   | dd      | 2    | 80  | 16   | 256   | -       |
-| ddrescue-68      |         | X68000   | 5.25      | 2HD   | hd      | 2    | 77  | 8    | 1024  | -       |
+| ddrescue-x68     |         | X68000   | 5.25      | 2HD   | hd      | 2    | 77  | 8    | 1024  | -       |
 | ddrescue-fm7     | Fujitsu | FM-8/7   | 5.25      | 2D    | dd      | 2    | 40  | 16   | 256   | -       |
 | ddrescue-fm77    |         | FM-77    | 3.5       | 2D    | dd      | 2    | 40  | 16   | 256   | 1       |
 | ddrescue-fm77-dd |         | FM77AV   | 3.5       | 2DD   | dd      | 2    | 80  | 16   | 256   | -       |
